@@ -1,2 +1,4 @@
 # odin-recipes
-Reviewing web development fundamentals as part of fullstack qualification preparation.
+This repository is dedicated to reviewing essential web development fundamentals as part of my journey towards fullstack qualification. It includes comprehensive notes, code examples, and exercises covering key topics such as HTML, CSS, JavaScript, and basic backend concepts. The goal is to solidify foundational knowledge and build a strong base for advanced fullstack development.
+This is one of the first excercises from the Odin Project, which is a free open source coding curriculum with a complete roadmap to becoming a fullstack developer.
+You can check The Odin Project on this [link](https://www.theodinproject.com)
