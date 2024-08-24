@@ -1,13 +1,11 @@
 body {
-    margin: 5;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     color: brown;
 }
 
-ol li {
-    margin-bottom: 15px;
-}
+ol li,
 
 ul li {
     margin-bottom: 15px;
@@ -49,4 +47,32 @@ ul li {
 
 .back-home:hover {
     text-decoration: underline;
+}
+
+/* Styles for smaller screens */
+
+@media (max-width: 600px) {
+    body {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .menu a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .back-home {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
