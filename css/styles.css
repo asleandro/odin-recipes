@@ -12,3 +12,41 @@ ol li {
 ul li {
     margin-bottom: 15px;
 }
+
+.menu {
+    list-style-type: none;
+    display: table-row-group;
+    justify-content: center;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.menu li {
+    margin: 1px;
+}
+
+.menu a {
+    text-decoration: none;
+    color:crimson;
+    font-weight: bold;
+    padding: 5px 20px;
+    display: block;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: chocolate;
+    transition: background-color 0.3s ease;
+}
+
+.back-home {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-home:hover {
+    text-decoration: underline;
+}
